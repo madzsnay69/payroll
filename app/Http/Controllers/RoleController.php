@@ -130,6 +130,6 @@ class RoleController extends Controller
 		$role->delete();
 		
 		Session::flash('success', 'role deleted!');
-		return redirect()->route('role.index');
+		return redirect()->route('roles.index');
     }
 }
